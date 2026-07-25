@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NorthPeak Digital | Growth Agency</title>
+    <meta name="description" content="NorthPeak Digital is a performance marketing agency helping B2B and SaaS companies turn traffic into predictable, measurable growth.">
+    
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fdf2f8',  
+                            100: '#fce7f3',
+                            400: '#f472b6', 
+                            500: '#ee4395',
+                            600: '#d93685',
+                        },
+                        navy: {
+                            700: '#34307a',
+                            800: '#262266',
+                            900: '#1d1a56',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Custom CSS for subtle animations -->
+    <style>
+        @media (prefers-reduced-motion: no-preference) {
+            .fade-in { animation: fadeIn 0.8s ease-in-out; }
+            @keyframes fadeIn {
+                from { opacity: 0; transform: translateY(20px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
+        }
+        .fade-in { animation: fadeIn 0.8s ease-in-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 antialiased selection:bg-brand-500 selection:text-white" aria-label="Main Navigation">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <a class="font-bold text-2xl tracking-tighter text-navy-900" href="/index.html">NorthPeak<span class="text-brand-500">.</span></a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-slate-500 hover:text-navy-900 transition">Services</a>
+                    <a href="#results" class="text-slate-500 hover:text-navy-900 transition">Results</a>
+                    <a href="#pricing" class="text-slate-500 hover:text-navy-900 transition">Pricing</a>
+                </div>
+                <div>
+                    <a href="#contact" class="bg-navy-900 hover:bg-brand-500 text-white px-5 py-2.5 rounded-lg font-medium transition shadow-sm">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<main>
+    <!-- Hero Section -->
+    <section class="relative pt-20 pb-32 lg:pt-32 lg:pb-40 overflow-hidden fade-in">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-navy-900 tracking-tight max-w-4xl mx-auto leading-tight">
+                Scale your revenue with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-purple-500">precision.</span>
+            </h1>
+            <p class="mt-6 text-lg md:text-xl text-slate-500 max-w-2xl mx-auto">
+                NorthPeak Digital is a performance marketing agency that helps B2B and SaaS companies turn traffic into predictable, measurable growth.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="bg-brand-500 hover:bg-brand-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition shadow-lg shadow-brand-500/30">
+                    Book a Free Strategy Call
+                </a>
+                <a href="#services" class="bg-white hover:bg-slate-50 text-navy-900 border border-slate-200 px-8 py-4 rounded-xl font-semibold text-lg transition shadow-sm">
+                    View Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section id="services" class="py-24 bg-white" aria-labelledby="services-heading">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 id="services-heading" class="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Everything you need to grow</h2>
+                    <p class="text-slate-600 text-lg">We don't just drive traffic; we build holistic growth engines tailored to your specific business model.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Semantic HTML: Changed standard divs to articles for grid items -->
+                    <article class="p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:bg-white hover:shadow-xl transition duration-300">
+                        <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center mb-6" aria-hidden="true">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-3">Paid Search (PPC)</h3>
+                        <p class="text-slate-600 leading-relaxed">High-intent Google & Bing Ads campaigns optimized for strict Cost-Per-Acquisition targets.</p>
+                    </article>
+                    
+                    <article class="p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:bg-white hover:shadow-xl transition duration-300">
+                        <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center mb-6" aria-hidden="true">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-3">Paid Social</h3>
+                        <p class="text-slate-600 leading-relaxed">Full-funnel LinkedIn, Meta, and X campaigns to build demand and capture B2B leads.</p>
+                    </article>
+
+                    <article class="p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:bg-white hover:shadow-xl transition duration-300">
+                        <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center mb-6" aria-hidden="true">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-navy-900 mb-3">Technical SEO</h3>
+                        <p class="text-slate-600 leading-relaxed">Site architecture and speed optimization to ensure search engines crawl and rank your content.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    <!-- Testimonials Section -->
+    <section id="results" class="py-24 bg-navy-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Don't just take our word for it</h2>
+                <p class="text-slate-300 text-lg">Real numbers and real feedback from our partners.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-navy-800 p-8 rounded-2xl border border-navy-700">
+                    <div class="flex items-center gap-1 text-brand-500 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-slate-200 text-lg mb-6 leading-relaxed">"NorthPeak helped us decrease our Customer Acquisition Cost by 42% while doubling our lead volume in just 6 months. Absolute game-changers."</p>
+                    <div class="flex items-center gap-4 mt-auto">
+                        <div class="w-12 h-12 bg-navy-700 rounded-full flex items-center justify-center font-bold">SJ</div>
+                        <div>
+                            <p class="font-bold text-white">Sarah Jenkins</p>
+                            <p class="text-sm text-slate-400">CMO, TechFlow SaaS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-navy-800 p-8 rounded-2xl border border-navy-700">
+                    <div class="flex items-center gap-1 text-brand-500 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-slate-200 text-lg mb-6 leading-relaxed">"Their CRO expertise is unmatched. A few adjustments to our pricing page and checkout flow lifted our conversion rate from 1.2% to 3.8%."</p>
+                    <div class="flex items-center gap-4 mt-auto">
+                        <div class="w-12 h-12 bg-navy-700 rounded-full flex items-center justify-center font-bold">MR</div>
+                        <div>
+                            <p class="font-bold text-white">Marcus Reed</p>
+                            <p class="text-sm text-slate-400">Founder, CloudSync</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-navy-800 p-8 rounded-2xl border border-navy-700 md:col-span-2 lg:col-span-1">
+                    <div class="flex items-center gap-1 text-brand-500 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-slate-200 text-lg mb-6 leading-relaxed">"We treated NorthPeak as an extension of our internal team. They built our SEO foundation from scratch, leading to a 300% YoY organic traffic bump."</p>
+                    <div class="flex items-center gap-4 mt-auto">
+                        <div class="w-12 h-12 bg-navy-700 rounded-full flex items-center justify-center font-bold">EL</div>
+                        <div>
+                            <p class="font-bold text-white">Elena Lopez</p>
+                            <p class="text-sm text-slate-400">VP of Marketing, FinScale</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Transparent Pricing</h2>
+                <p class="text-slate-500 text-lg">Fixed monthly retainers. No hidden fees or percentage-of-ad-spend nonsense.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-6xl mx-auto">
+                <!-- Tier 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                    <h3 class="text-2xl font-bold text-navy-900">Starter</h3>
+                    <p class="text-slate-500 mt-2">Perfect for seed-stage startups testing the waters.</p>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold text-navy-900">$2,500</span>
+                        <span class="text-slate-500">/mo</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-slate-600"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Google Ads Management</li>
+                        <li class="flex items-center text-slate-600"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Basic Keyword Research</li>
+                        <li class="flex items-center text-slate-600"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Monthly Reporting</li>
+                        <li class="flex items-center text-slate-300"><svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg> No CRO or SEO</li>
+                    </ul>
+                    <a href="#contact" class="block w-full text-center bg-slate-100 hover:bg-slate-200 text-navy-900 font-bold py-3 px-4 rounded-xl transition">Choose Starter</a>
+                </div>
+
+                <!-- Tier 2 (Highlighted) -->
+                <div class="bg-navy-900 p-8 rounded-2xl shadow-2xl relative transform md:-translate-y-4">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-brand-500 text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wide">
+                        Most Popular
+                    </div>
+                    <h3 class="text-2xl font-bold text-white">Growth</h3>
+                    <p class="text-slate-300 mt-2">The comprehensive stack for scaling businesses.</p>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold text-white">$5,000</span>
+                        <span class="text-slate-400">/mo</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-slate-200"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Multi-channel PPC & Social</li>
+                        <li class="flex items-center text-slate-200"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Comprehensive SEO Strategy</li>
+                        <li class="flex items-center text-slate-200"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Conversion Rate Optimization</li>
+                        <li class="flex items-center text-slate-200"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Bi-weekly Strategy Calls</li>
+                    </ul>
+                    <a href="#contact" class="block w-full text-center bg-brand-500 hover:bg-brand-600 text-white font-bold py-3 px-4 rounded-xl transition shadow-lg shadow-brand-500/20">Choose Growth</a>
+                </div>
+
+                <!-- Tier 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm">
+                    <h3 class="text-2xl font-bold text-navy-900">Enterprise</h3>
+                    <p class="text-slate-500 mt-2">Custom-built teams for large organizations.</p>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold text-navy-900">Custom</span>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center text-slate-600"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Dedicated Growth Team</li>
+                        <li class="flex items-center text-slate-600"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Custom Tech Stack Setup</li>
+                        <li class="flex items-center text-slate-600"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Real-time Dashboarding</li>
+                        <li class="flex items-center text-slate-600"><svg class="w-5 h-5 text-brand-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Priority 24/7 Slack Access</li>
+                    </ul>
+                    <a href="#contact" class="block w-full text-center bg-slate-100 hover:bg-slate-200 text-navy-900 font-bold py-3 px-4 rounded-xl transition">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-24 bg-white border-t border-slate-100">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Ready to hit the next peak?</h2>
+                <p class="text-slate-500 text-lg">Fill out the form below and we'll get back to you within 24 hours.</p>
+            </div>
+            
+            <form id="contactForm" class="bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-sm" novalidate>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="name" class="block text-sm font-bold text-navy-900 mb-2">Full Name <span class="text-brand-500">*</span></label>
+                        <input type="text" id="name" name="name" autocomplete="name" required aria-required="true" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition bg-white" placeholder="Jane Doe">
+                        <p id="nameError" class="text-brand-600 text-sm mt-1 hidden">Name is required.</p>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-bold text-navy-900 mb-2">Work Email <span class="text-brand-500">*</span></label>
+                        <input type="email" id="email" autocomplete="email" required aria-required="true" name="email" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition bg-white" placeholder="jane@company.com">
+                        <p id="emailError" class="text-brand-600 text-sm mt-1 hidden">Please enter a valid email.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-6">
+                    <label for="budget" class="block text-sm font-bold text-navy-900 mb-2">Monthly Budget</label>
+                    <select id="budget" name="budget" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition bg-white">
+                        <option value="">Select a range</option>
+                        <option value="under5k">Under $5,000</option>
+                        <option value="5kto10k">$5,000 - $10,000</option>
+                        <option value="over10k">Over $10,000</option>
+                    </select>
+                </div>
+
+                <div class="mb-6">
+                    <label for="message" class="block text-sm font-bold text-navy-900 mb-2">How can we help? <span class="text-brand-500">*</span></label>
+                    <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 outline-none transition bg-white resize-none" placeholder="Tell us about your current growth bottlenecks..."></textarea>
+                    <p id="messageError" class="text-brand-600 text-sm mt-1 hidden">Message cannot be empty.</p>
+                </div>
+
+                <!-- Form Status Alert -->
+                <div id="formAlert" class="hidden mb-6 p-4 rounded-lg font-medium text-sm" role="status" aria-live="polite"></div>
+
+                <button type="submit" class="w-full bg-navy-900 hover:bg-navy-800 text-white font-bold py-4 px-6 rounded-xl transition shadow-sm">
+                    Submit Application
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-900 py-12 border-t border-navy-800 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <span class="font-bold text-2xl tracking-tighter text-white mb-4 block">NorthPeak<span class="text-brand-500">.</span></span>
+            <p class="text-slate-400">Built for <a href="https://digitalheroesco.com/" class="">Digital Heroes</a> Training Task</p>
+        </div>
+    </footer>
+</main>
+    <!-- Client-Side Validation Logic -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            let isValid = true;
+            const nameInput = document.getElementById('name');
+            const emailInput = document.getElementById('email');
+            const messageInput = document.getElementById('message');
+            const formAlert = document.getElementById('formAlert');
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            // Reset UI
+            document.querySelectorAll('[role="alert"]').forEach(el => el.classList.add('hidden'));
+            formAlert.classList.add('hidden');
+            formAlert.className = 'hidden mb-6 p-4 rounded-lg font-medium text-sm'; 
+
+            if (nameInput.value.trim() === '') {
+                document.getElementById('nameError').classList.remove('hidden');
+                isValid = false;
+            }
+
+            if (!emailRegex.test(emailInput.value.trim())) {
+                document.getElementById('emailError').classList.remove('hidden');
+                isValid = false;
+            }
+
+            if (messageInput.value.trim() === '') {
+                document.getElementById('messageError').classList.remove('hidden');
+                isValid = false;
+            }
+
+            if (isValid) {
+                formAlert.textContent = 'Form submitted successfully! We will be in touch shortly.';
+                formAlert.classList.add('bg-green-100', 'text-green-800', 'border', 'border-green-200');
+                formAlert.classList.remove('hidden');
+                this.reset();
+            } else {
+                formAlert.textContent = 'Please fill all fields highlighted above before submitting.';
+                formAlert.classList.add('bg-red-100', 'text-red-800', 'border', 'border-red-200');
+                formAlert.classList.remove('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
